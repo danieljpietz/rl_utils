@@ -1,0 +1,28 @@
+[project]
+name = "rl_utils"
+version = "0.1.0"
+description = "Utilities for reinforcement learning experiments"
+authors = [
+    { name = "Daniel Pietz", email = "danieljpietz@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "torch~=2.2.2",
+    "gymnasium~=1.1.1",
+    "numpy~=1.26.4",
+    "matplotlib~=3.9.4",
+    "pygame~=2.6.1",
+    "pybullet~=3.2.7"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==25.1.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
