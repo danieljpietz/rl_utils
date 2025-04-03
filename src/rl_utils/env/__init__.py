@@ -1,5 +1,1 @@
-from . import BoxPusher
-from . import CartPole
-
-assert BoxPusher
-assert CartPole
+from . import LinearCartPole
